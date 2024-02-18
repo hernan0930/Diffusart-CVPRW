@@ -50,5 +50,5 @@ Colorization of line art drawings is an important task in illustration and anima
 
 Overview of our proposed user-guided line art colorization. The framework is composed of two main components: a denoising model εθ , which learns to generate a denoised image, and an application-specific encoder gθ for extracting user color scribbles information.
 <p align="center">
-<img src="https://github.com/hernan0930/Diffusart-CVPRW/blob/main/diagrams_img/CVPRW_diagram.png" width=50%>
+<img src="https://github.com/hernan0930/Diffusart-CVPRW/blob/main/diagrams_img/CVPRW_diagram.png" width=70%>
 </p>
