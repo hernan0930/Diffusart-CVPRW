@@ -38,9 +38,9 @@ We uploaded the [pre-trained model]() to Google drive.
 ## Test
 
 ```python
-python main.py --target_dir ./samples/target/ --ref_dir ./samples/scribbles/ --out_dir ./samples/results/
+python main.py --target_dir ./samples/target/ --scrib_dir ./samples/scribbles/ --out_dir ./samples/results/
 ```
-where **--target_dir** and **--scribbles_dir** are directories that contains target and color scribbles images in this form: **0.jpg, 1.png, 2.png, 3.jpg, ..... etc.**
+where **--sketch_dir** and **--scrib_dir** are directories that contains the line art and color scribbles images. **The color scribbles are 4 dimension images [R,G,B,mask]**
 
 ## Abstract
 
