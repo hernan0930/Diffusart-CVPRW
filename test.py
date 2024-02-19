@@ -20,11 +20,11 @@ if __name__ == '__main__':
     parser.add_argument('--sketch_dir', type=str, required=False, default='./samples/sketch/', help='Path to the directory containing line art images.')
     parser.add_argument('--scrib_dir', type=str, required=False, default='./samples/scrib/', help='Path to the directory containing color scribbles images.')
     parser.add_argument('--out_dir', type=str, required=False, default='./samples/results/', help='Path to the directory containing color scribbles images.')
-    parser.add_argument('--model_path', type=str, required=False, default='./checkpoint/RGB_hints_scrib_v2_1px_256_L1_CAT/checkpoint_ema_404400.pth', help='Path to the .pth model file.')
+    parser.add_argument('--model_path', type=str, required=False, default='./checkpoint/diffusart_v1.pth', help='Path to the .pth model file.')
     args = parser.parse_args()
 
     #Reading all images from directories
-    sketch_path = glob.glob(args.sketch_dir + '*.png')
+    sketch_path = glob.glob(args.sketch_dir + '*.jpg')
     scrib_path = glob.glob(args.sketch_dir + '*.png')
     loader_val = MyData_paper_test(sketch_path, scrib_path, size=image_size)
 
