@@ -22,8 +22,8 @@ Citation:
 ## Requirements
 
 - python==3.8
-- pytorch>=2.2.0
-- torchvision>=0.17
+- pytorch==2.1.2
+- torchvision==0.16.2
 
 ```
 conda create -n diffusart python=3.8
