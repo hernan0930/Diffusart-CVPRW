@@ -10,12 +10,13 @@ EEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2023 <br>
 Citation:
 
 ```latex
-@inproceedings{carrillo2023diffusart,
-  title={Diffusart: Enhancing Line Art Colorization with Conditional Diffusion Models},
-  author={Carrillo, Hernan and Cl{\'e}ment, Micha{\"e}l and Bugeau, Aur{\'e}lie and Simo-Serra, Edgar},
-  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
-  pages={3485--3489},
-  year={2023}
+@InProceedings{Carrillo_2023_CVPR,
+    author    = {Carrillo, Hernan and Cl\'ement, Micha\"el and Bugeau, Aur\'elie and Simo-Serra, Edgar},
+    title     = {Diffusart: Enhancing Line Art Colorization With Conditional Diffusion Models},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+    month     = {June},
+    year      = {2023},
+    pages     = {3486-3490}
 }
 ```
 
