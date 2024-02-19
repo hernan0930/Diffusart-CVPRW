@@ -40,7 +40,9 @@ We uploaded the [pre-trained model](https://drive.google.com/file/d/1q0JUjbPAhd2
 ```python
 python test.py --sketch_dir ./samples/sketch/ --scrib_dir ./samples/scrib/ --out_dir ./samples/results/ --model_path ./checkpoint/diffusart_v1.pth
 ```
-where **--sketch_dir** and **--scrib_dir** are directories that contains the line art and color scribbles images. **The color scribbles are 4 dimension images [R,G,B,mask]**
+where **--sketch_dir** and **--scrib_dir** are directories that contains the line art and color scribbles images. Both images need to have the same name **(i.e., ./samples/sketch/1118324.jpg  ./samples/scrib/1118324.png)**.
+
+Note: **The color scribbles are 4 dimension images [R,G,B,mask]**
 
 ## Abstract
 

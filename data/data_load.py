@@ -75,8 +75,9 @@ class MyData_paper_test(Dataset):
 
     def __getitem__(self, index):
         f = self.sketch_path[index].split('/')
-        sketch_data = resize(io.imread('./paper_test/img_paper/sketch/' + f[3]), (self.size, self.size))
-        hint_in = resize(io.imread(('./paper_test/img_paper/hints_paper/mask_new/' + f[3][:-4] + '.png')), (self.size, self.size))
+        s_path = self.sketch_path[index]
+        sketch_data = resize(io.imread(s_path), (self.size, self.size))
+        hint_in = resize(io.imread(('./samples/scrib/' + f[3][:-4] + '.png')), (self.size, self.size))
 
         if sketch_data.ndim > 2:
             _, _, c = sketch_data.shape
