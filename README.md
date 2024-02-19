@@ -38,7 +38,7 @@ We uploaded the [pre-trained model]() to Google drive.
 ## Test
 
 ```python
-python main.py --target_dir ./samples/target/ --scrib_dir ./samples/scribbles/ --out_dir ./samples/results/
+python test.py --target_dir ./samples/target/ --scrib_dir ./samples/scribbles/ --out_dir ./samples/results/ --model_path ./checkpoint/diffusart_v1.pth
 ```
 where **--sketch_dir** and **--scrib_dir** are directories that contains the line art and color scribbles images. **The color scribbles are 4 dimension images [R,G,B,mask]**
 
