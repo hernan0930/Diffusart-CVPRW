@@ -31,9 +31,9 @@ conda activate diffusart
 pip install -r requirements.txt
 ```
 
-## Pretrained Model [TO DO]
+## Pretrained Model
 
-We uploaded the [pre-trained model]() to Google drive.
+We uploaded the [pre-trained model](https://drive.google.com/file/d/1q0JUjbPAhd2OFpGPSrMeV8L6eL4FkjOO/view?usp=drive_link) to Google drive.
 
 ## Test
 
