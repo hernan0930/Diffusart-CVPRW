@@ -36,6 +36,9 @@ pip install -r requirements.txt
 
 We uploaded the [pre-trained model](https://drive.google.com/file/d/1q0JUjbPAhd2OFpGPSrMeV8L6eL4FkjOO/view?usp=sharing) to Google drive.
 
+## Training the model [TO DO]
+Working..
+
 ## Test
 
 ```python
